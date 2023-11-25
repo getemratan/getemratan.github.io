@@ -9,14 +9,20 @@
 		<title>Getem Ratan | Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Mono&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/mediaqueries.css" />
 	</head>
 	
-	<body class="is-preload">
+	<body>
+		<div id="root">
+			<div class="cZslOS">
 				<!-- Nav -->
 				<nav id="desktop-nav">
-					<div class="logo">G</div>
+					<div class="logo">GETEM RATAN</div>
 					<div>
 						<ol class="nav-links">
 							<li><a href="#about"> About</a></li>
@@ -43,22 +49,99 @@
 						</div>
 					</div>
 				</nav>
+				<!-- Hero Section -->
+				<main>
+					<section class="hero-section">
+						<div class="section-text">
+							<h1>Hi, my name is</h1>
+						</div>
+						<div>
+							<h2 class="big-heading">Getem Ratan.</h2>
+						</div>
+						<div>
+							<h3 class="big-heading">I design and develop games.</h3>
+						</div>
+						<div>
+							<p>"I'm a Generalist Game Developer (and occasional desginer) who strives to make games for the players to enjoy."</p>
+						</div>
+					</section>
+					<!-- About Section -->
+					<section id="about">
+						<h2 class="numbered-heading">About Me</h2>
+						<div class="inner">
+							<div class="about__text">
+								<div>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae et enim odio temporibus, deserunt deleniti aliquid nesciunt illo commodi consectetur, delectus ipsam similique repellendus. Nobis ipsa facere iusto quidem dolores?</p>
+								</div>
+							</div>
+							<div class="about_pic">
+								<img width="500" height="500" src="/images/profile_pic_one.png" alt="my pic">
+							</div>
+						</div>
+					</section>
+					<!-- Project Section -->
+					<section id="project">
+						<h2 class="numbered-heading">
+							Some Projects I've Worked On
+						</h2>
+						<ul class="projects-list">
+							<li class="project-template">
+								<div class="project-content">
+									<div>
+										<h3 class="project-title">Alien Overload</h3>
+										<div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor enim quod perferendis voluptate corrupti, ipsam impedit itaque obcaecati officia quam sed repellendus unde deleniti a. Impedit rem laudantium quod atque?</div>
+										<ul class="project-tech-list">
+											<li>C#</li>
+											<li>Unity</li>
+										</ul>
+										<div class="project-links"><a href="https://github.com/bchiang7/halcyon-site" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">CLICK</a></div>
+									</div>
+								</div>
+								<div class="project-image">
+									<img src="./images/AlienOverload.png" alt="Alien Overload">
+								</div>
+							</li>
+						</ul>
+					</section>
+					<!-- Contact Section -->
+					<section id="contact" class="contact-section">
+						<h2 class="numbered-heading contact-title">Let's Create Together</h2>
+						<h2 class="title">Get In Touch</h2>
+						<div class="contact-links">
+							<a href="mailto:getemratan410@gmail.com" aria-label="Gmail Link" rel="noopener noreferrer" target="_blank">
+								<img src="./images/email-icon.png" alt="email">
+							</a>
+							<a href="https://www.linkedin.com/in/getem-ratan/" aria-label="Gmail Link" rel="noopener noreferrer" target="_blank">
+								<img src="./images/linkedin-icon.png" alt="linkedin">
+							</a>
+						</div>
 
-
-						<!-- Contact -->
-
-
-				<!-- Footer -->
+					</section>
+					<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; 2020 Getem Ratan. All Rights Reserved.</p>
+						<nav>
+							<div class="nav-links-container">
+								<div>
+									<ol class="nav-links">
+										<li><a href="#about"> About</a></li>
+										<li><a href="#experience"> Experience</a></li>
+										<li><a href="#work"> Work</a></li>
+										<li><a href="#contact"> Contact</a></li>
+									</ol>
+								</div>
+							</div>
+						</nav>
+						<p class="copyright">&copy; 2023 Getem Ratan. All Rights Reserved.</p>
 					</footer>
-		<!-- Scripts -->
-			<!-- <script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script> -->
-			<script src="assets/js/hamburgerClick.js"></script>
-
+				</main>
+				<!-- Scripts -->
+				<!-- <script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script> -->
+				<script src="assets/js/hamburgerClick.js"></script>
+			</div>
+		</div>
 	</body>
 </html>
