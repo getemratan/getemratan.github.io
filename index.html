@@ -21,17 +21,19 @@
 		<div id="root">
 			<div class="cZslOS">
 				<!-- Nav -->
-				<nav id="desktop-nav">
-					<div class="logo">GETEM RATAN</div>
-					<div>
-						<ol class="nav-links">
-							<li><a href="#about"> About</a></li>
-							<li><a href="#experience"> Experience</a></li>
-							<li><a href="#work"> Work</a></li>
-							<li><a href="#contact"> Contact</a></li>
-						</ol>
-					</div>
-				</nav>
+				<header class="nav-styled">
+					<nav id="desktop-nav">
+						<div class="logo">GETEM RATAN</div>
+						<div>
+							<ol class="nav-links">
+								<li><a href="#about"> About</a></li>
+								<li><a href="#experience"> Experience</a></li>
+								<li><a href="#project"> Work</a></li>
+								<li><a href="#contact"> Contact</a></li>
+							</ol>
+						</div>
+					</nav>
+				</header>
 				<!-- Hamburger Nav -->
 				<nav id="hamburger-nav">
 					<div class="logo">G</div>
@@ -50,97 +52,148 @@
 					</div>
 				</nav>
 				<!-- Hero Section -->
-				<main>
-					<section class="hero-section">
-						<div class="section-text">
-							<h1>Hi, my name is</h1>
-						</div>
-						<div>
-							<h2 class="big-heading">Getem Ratan.</h2>
-						</div>
-						<div>
-							<h3 class="big-heading">I design and develop games.</h3>
-						</div>
-						<div>
-							<p>"I'm a Generalist Game Developer (and occasional desginer) who strives to make games for the players to enjoy."</p>
-						</div>
-					</section>
-					<!-- About Section -->
-					<section id="about">
-						<h2 class="numbered-heading">About Me</h2>
-						<div class="inner">
-							<div class="about__text">
-								<div>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae et enim odio temporibus, deserunt deleniti aliquid nesciunt illo commodi consectetur, delectus ipsam similique repellendus. Nobis ipsa facere iusto quidem dolores?</p>
-								</div>
+				<div id="content">
+					<main>
+						<section class="hero-section">
+							<div class="section-text">
+								<h1>Hi, my name is</h1>
 							</div>
-							<div class="about_pic">
-								<img width="500" height="500" src="/images/profile_pic_one.png" alt="my pic">
+							<div>
+								<h2 class="big-heading">Getem Ratan.</h2>
 							</div>
-						</div>
-					</section>
-					<!-- Project Section -->
-					<section id="project">
-						<h2 class="numbered-heading">
-							Some Projects I've Worked On
-						</h2>
-						<ul class="projects-list">
-							<li class="project-template">
-								<div class="project-content">
+							<div>
+								<h3 class="medium-heading">I design and develop games.</h3>
+							</div>
+							<div>
+								<p>I'm a Generalist Game Developer (and occasional desginer) who strives to make games for the players to enjoy. Currently I'm working on a PvP game at <a href="https://godspeedgames.com/">Godspeed Games.</a></p>
+							</div>
+							<div>
+								<a href="./assets/resume/resume.pdf" class="resume-link" target="_blank">Resume</a>
+							</div>
+						</section>
+						<!-- About Section -->
+						<section id="about">
+							<h2 class="numbered-heading">About Me</h2>
+							<div class="inner">
+								<div class="about__text">
 									<div>
-										<h3 class="project-title">Alien Overload</h3>
-										<div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor enim quod perferendis voluptate corrupti, ipsam impedit itaque obcaecati officia quam sed repellendus unde deleniti a. Impedit rem laudantium quod atque?</div>
-										<ul class="project-tech-list">
-											<li>C#</li>
-											<li>Unity</li>
-										</ul>
-										<div class="project-links"><a href="https://github.com/bchiang7/halcyon-site" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">CLICK</a></div>
+										<p>Hello! My name is Getem and I enjoy making games. Favourite games of mine? Well there are a lot but Ghost Trick: Phantom Detective, Life is Strange, God Hand and Firewatch just to name a few.</p>
+										<p>My main focus these days is programming game mechanics at Godspeed Games for a variety of clients.</p>
 									</div>
 								</div>
-								<div class="project-image">
-									<img src="./images/AlienOverload.png" alt="Alien Overload">
-								</div>
-							</li>
-						</ul>
-					</section>
-					<!-- Contact Section -->
-					<section id="contact" class="contact-section">
-						<h2 class="numbered-heading contact-title">Let's Create Together</h2>
-						<h2 class="title">Get In Touch</h2>
-						<div class="contact-links">
-							<a href="mailto:getemratan410@gmail.com" aria-label="Gmail Link" rel="noopener noreferrer" target="_blank">
-								<img src="./images/email-icon.png" alt="email">
-							</a>
-							<a href="https://www.linkedin.com/in/getem-ratan/" aria-label="Gmail Link" rel="noopener noreferrer" target="_blank">
-								<img src="./images/linkedin-icon.png" alt="linkedin">
-							</a>
-						</div>
-
-					</section>
-					<!-- Footer -->
-					<footer id="footer">
-						<nav>
-							<div class="nav-links-container">
-								<div>
-									<ol class="nav-links">
-										<li><a href="#about"> About</a></li>
-										<li><a href="#experience"> Experience</a></li>
-										<li><a href="#work"> Work</a></li>
-										<li><a href="#contact"> Contact</a></li>
-									</ol>
+								<div class="about_pic">
+									<img src="/images/profile_pic_two.png" alt="my pic">
 								</div>
 							</div>
-						</nav>
-						<p class="copyright">&copy; 2023 Getem Ratan. All Rights Reserved.</p>
-					</footer>
-				</main>
-				<!-- Scripts -->
-				<!-- <script src="assets/js/jquery.min.js"></script>
-				<script src="assets/js/browser.min.js"></script>
-				<script src="assets/js/breakpoints.min.js"></script>
-				<script src="assets/js/util.js"></script>
-				<script src="assets/js/main.js"></script> -->
-				<script src="assets/js/hamburgerClick.js"></script>
+						</section>
+						<!-- Experience Section -->
+						<section id="experience">
+							<h2 class="numbered-heading">My Experience</h2>
+							<div class="inner">
+								<div class="experience__text">
+									<div>
+										<p>I have been in the game industry for more than 3 years, in which I have worked on various projects using mainly C#, C++ and Unity. I have also helped ship one game on both playstore and appstore. And one game for PC.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- Project Section -->
+						<section id="project">
+							<h2 class="numbered-heading">
+								Some Projects I've Worked On
+							</h2>
+							<ul class="projects-list">
+								<li class="project-template">
+									<div class="project-content">
+										<div>
+											<h3 class="project-title">Conform</h3>
+											<div class="project-description">A simple yet endlessly engaging puzzle-platformer for both Android and iOS platforms. Nominated for the <a href="https://www.animationxpress.com/games/here-is-the-igdc-awards-2020-winners-list/" target="_blank">Student Game of the Year</a> at the India GDC Awards, 2020.</div>
+											<ul class="project-tech-list">
+												<li>C#</li>
+												<li>Unity</li>
+											</ul>
+											<div class="project-links"><a href="https://github.com/bchiang7/halcyon-site" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">CLICK</a></div>
+										</div>
+									</div>
+									<div class="project-image">
+										<img src="./images/conform-gif.gif" alt="Conform">
+										<img class="top-image" src="./images/conform-still.png" alt="Conform">
+									</div>
+								</li>
+								<li class="project-template">
+									<div class="project-content">
+										<div>
+											<h3 class="project-title">Orange Season</h3>
+											<div class="project-description">A farming simulation game where you as a player grow crops, raising livestocks, mining etc. This game is available on steam</div>
+											<ul class="project-tech-list">
+												<li>C#</li>
+												<li>Unity</li>
+											</ul>
+											<div class="project-links"><a href="https://github.com/bchiang7/halcyon-site" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">CLICK</a></div>
+										</div>
+									</div>
+									<div class="project-image">
+										<img src="./images/orange-bottom.gif" alt="Orange">
+										<img class="top-image" src="./images/orange-still.png" alt="Orange">
+									</div>
+								</li>
+								<li class="project-template">
+									<div class="project-content">
+										<div>
+											<h3 class="project-title">Battle Legion - Mass Battler</h3>
+											<div class="project-description">Battle Legion is a mass battle multiplayer idle game with deep strategy elements and AI controlled troops fighting for you. There are lots of units with different abilities which the player can put on the battle field.</div>
+											<ul class="project-tech-list">
+												<li>C#</li>
+												<li>Unity</li>
+											</ul>
+											<div class="project-links"><a href="https://github.com/bchiang7/halcyon-site" aria-label="GitHub Link" rel="noopener noreferrer" target="_blank">CLICK</a></div>
+										</div>
+									</div>
+									<div class="project-image">
+										<img src="./images/battle-legion-bottom.gif" alt="Battle Legion">
+										<img class="top-image" src="./images/battle-legion-still.png" alt="Battle Legion">
+									</div>
+								</li>
+							</ul>
+							<div class="game-jam-project">
+								<h2 class="title">Game Jam Projects</h2>
+								<p>I absolutely love taking part in game jams, it all started back in 2020 when I took part in my first jam which was <a href="https://v3.globalgamejam.org/2020/games" target="_blank">Global Game Jam.</a> It was an on-site jam so I had a blast getting to know new people, interacting with like minded people and just talking about games. Since then I crave for these feelings which is why I take my time out for game jams every year. Here are some of my game jam projects <a href="https://getemratan.itch.io/" target="_blank">itch.io link</a> (Almost all of these projects have been completed under <a href="https://en.wikipedia.org/wiki/Game_jam" target="_blank">72 hours</a>)</p>
+							</div>
+						</section>
+						<!-- Contact Section -->
+						<section id="contact" class="contact-section">
+							<h2 class="numbered-heading">Let's Create Together</h2>
+							<p>Get In Touch</p>
+							<p class="contact-description">My inbox is always open so feel free to reach out and I will get back to you as soon as possible.</p>
+							<div class="contact-links">
+								<a href="mailto:getemratan410@gmail.com" aria-label="Gmail Link" rel="noopener noreferrer" target="_blank">
+									<!-- <img src="./images/email-icon.png" alt="email"> -->
+									<div id="png-one">
+										<!--  Container for contact icons  -->
+									</div>
+								</a>
+								<a href="https://www.linkedin.com/in/getem-ratan/" aria-label="Gmail Link" rel="noopener noreferrer" target="_blank">
+									<div id="png-two">
+										<!--  Container for contact icons  -->
+									</div>
+								</a>
+							</div>
+	
+						</section>
+						<!-- Footer -->
+						<footer id="footer">
+							<p class="copyright">&copy; 2023 Getem Ratan. All Rights Reserved.</p>
+						</footer>
+					</main>
+					<!-- Scripts -->
+					<!-- <script src="assets/js/jquery.min.js"></script>
+					<script src="assets/js/browser.min.js"></script>
+					<script src="assets/js/breakpoints.min.js"></script>
+					<script src="assets/js/util.js"></script>
+					<script src="assets/js/main.js"></script> -->
+					<script src="assets/js/hamburgerClick.js"></script>
+					<script src="assets/js/navscroll.js"></script>
+				</div>
 			</div>
 		</div>
 	</body>
