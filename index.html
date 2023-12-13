@@ -36,7 +36,7 @@
 				</header>
 				<!-- Hamburger Nav -->
 				<nav id="hamburger-nav">
-					<div class="logo">G</div>
+					<div class="logo">GETEM</div>
 					<div class="hamburger-menu">
 						<div class="hamburger-icon" onclick="toggleMenu()">
 							<span></span>
@@ -53,7 +53,7 @@
 				</nav>
 				<!-- Hero Section -->
 				<div id="content">
-					<main>
+					<main class="fillHeight">
 						<section class="hero-section">
 							<div class="section-text">
 								<h1>Hi, my name is</h1>
@@ -78,6 +78,7 @@
 								<div class="about__text">
 									<div>
 										<p>Hello! My name is Getem and I enjoy making games. Favourite games of mine? Well there are a lot but Ghost Trick: Phantom Detective, Life is Strange, God Hand and Firewatch just to name a few.</p>
+										<p>I am proud to say my very first game Conform which I co-developed with one of my close friend was nominated for Student Game of The Year at India Game Developers Conference 2023 and it received many positive reviews on the Play Store.</p>
 										<p>My main focus these days is programming game mechanics at Godspeed Games for a variety of clients.</p>
 									</div>
 								</div>
@@ -89,11 +90,42 @@
 						<!-- Experience Section -->
 						<section id="experience">
 							<h2 class="numbered-heading">My Experience</h2>
-							<div class="inner">
-								<div class="experience__text">
+							<div class="tabs">
+								<input type="radio" class="tabs__radio" name="experience" id="tab-1" checked>
+								<label for="tab-1" class="tabs__label">Godspeed Games</label>
+								<div class="tabcontent">
+									<h3>
+										<span>Game Programmer @ Godspeed Games</span>
+									</h3>
+									<p class="period">Feb 2021 - present</p>
 									<div>
-										<p>I have been in the game industry for more than 3 years, in which I have worked on various projects using mainly C#, C++ and Unity. I have also helped ship one game on both playstore and appstore. And one game for PC.</p>
+										<ul>
+											<li>Write well optimized gameplay systems and mechanics for a diverse array of clients.</li>
+											<li>Work with designers and artists to implement their visions in the game.</li>
+											<li>Find optimum solutions for problems and help in thorough testing and debugging.</li>
+											<li>Implement responsive and intuitive UI/UX for games.</li>
+										</ul>
 									</div>
+								</div>
+								<input type="radio" class="tabs__radio" name="experience" id="tab-2">
+								<label for="tab-2" class="tabs__label">Running Nose Games</label>
+								<div class="tabcontent">
+									<h3>
+										<span>Game Designer & Programmer @ Running Nose Games</span>
+									</h3>
+									<p class="period">Feb 2020 - Jan 2021</p>
+									<div>
+										<ul>
+											<li>Design intuitive, interesting and fun levels for the game.</li>
+											<li>Create audio i.e bgm and sfx for the game.</li>
+											<li>Program optimized gameplay mechanics.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="experience__text">
+								<div>
+									<p>I have been in the game industry for more than 3 years, in which I have worked on various projects using mainly C#, C++ and Unity. I have also helped ship one game on both playstore and appstore. And one game for PC.</p>
 								</div>
 							</div>
 						</section>
@@ -192,7 +224,7 @@
 					<script src="assets/js/util.js"></script>
 					<script src="assets/js/main.js"></script> -->
 					<script src="assets/js/hamburgerClick.js"></script>
-					<script src="assets/js/navscroll.js"></script>
+					<!-- <script src="assets/js/navscroll.js"></script> -->
 				</div>
 			</div>
 		</div>

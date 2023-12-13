@@ -5,5 +5,54 @@
 
   #hamburger-nav {
     display: flex; 
+    padding-top: 40px;
+    gap: 150px;
+    z-index: 12;
+  }
+
+  .contact-section .contact-description {
+    margin: 0;
+  }
+
+  #project .numbered-heading {
+    white-space: inherit;
+  }
+
+  #contact .numbered-heading {
+    white-space: inherit;
+  }
+}
+
+@media (max-width: 1600px) {
+  .fillHeight {
+    padding: 0px 150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fillHeight {
+    padding: 0px 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .fillHeight {
+    padding: 0px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .fillHeight {
+    padding: 0px 30px;
+  }
+
+  body {
+    font-size: var(--fz-lg);
+  }
+}
+
+@media (max-width: 768px) {
+  #about .inner {
+    display: block;
   }
 }

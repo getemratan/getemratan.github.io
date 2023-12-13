@@ -1,3 +1,8 @@
+html {
+	box-sizing: border-box;
+	width: 100%;
+	scroll-behavior: smooth;
+}
 
 *,
 *:before,
@@ -149,6 +154,7 @@ nav {
 .nav-links li::before {
 	content: "0" counter(num) ".";
 	color: var(--pink);
+	margin-right: 6px;
 }
 
 a {
@@ -408,6 +414,66 @@ section {
 	max-width: 300px;
 }
 
+.tabs {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tabs__label {
+	font-family: var(--font-mono);
+	font-size: var(--fz-lg);
+	padding: 10px 16px;
+	cursor: pointer;
+}
+
+.tabs__radio {
+	display: none;
+}
+
+.tabcontent {
+	order: 1;
+	width: 100%;
+	display: none;
+}
+
+.tabs__radio:checked+.tabs__label {
+	font-weight: bold;
+	color: var(--pink);
+	border-bottom: 2px solid var(--pink);
+	background-color: var(--light-purple);
+}
+
+.tabs__radio:checked+.tabs__label+.tabcontent {
+	display: block;
+	margin-top: 20px;
+}
+
+.tabcontent h3 {
+	font-size: var(--fz-xxl);
+	font-family: aileron;
+}
+
+.tabcontent .period {
+	margin-bottom: 25px;
+	color: var(--pink);
+	font-family: var(--font-mono);
+	font-size: var(--fz-md);
+}
+
+.tabcontent ul li {
+	margin-bottom: 10px;
+}
+
+.tabcontent ul {
+	list-style: none;
+}
+
+.tabcontent ul li::before {
+	content: "▹";
+	color: var(--pink);
+	margin-right: 20px;
+}
+
 /* PROJECT */
 
 .project-image {
@@ -593,6 +659,7 @@ section {
 footer {
 	height: 4vh;
 	margin: 0px 1rem;
+	padding-bottom: 10px;
 }
 
 footer p {
