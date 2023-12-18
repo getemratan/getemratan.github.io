@@ -21,6 +21,43 @@
   #contact .numbered-heading {
     white-space: inherit;
   }
+
+  .tabs__label {
+    font-size: var(--fz-xs);
+  }
+
+  .tabcontent h3 {
+    font-size: var(--fz-lg);
+  }
+
+  .project-template:nth-of-type(2n+1) .project-content {
+    grid-column: 1 / -1;
+    text-align: left;
+  }
+
+  .project-template .project-content {
+    grid-column: 1 / -1;
+    text-align: left;
+  }
+
+  .project-template:nth-of-type(2n+1) .project-tech-list {
+    justify-content: flex-start;
+  }
+
+  .project-template .project-description {
+    box-shadow: none; 
+    background-color: transparent;
+  }
+
+  .project-template:nth-of-type(2n+1) .project-image {
+    grid-column: 1 / -1;
+    filter: grayscale(60%) contrast(1) brightness(50%);
+  }
+
+  .project-template .project-image {
+    grid-column: 1 / -1;
+    filter: grayscale(60%) contrast(1) brightness(50%);
+  }
 }
 
 @media (max-width: 1600px) {

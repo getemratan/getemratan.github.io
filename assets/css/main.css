@@ -377,7 +377,25 @@ section {
 	gap: 50px;
 }
 
-.about_pic img {
+
+/* TODO: fix overlay for theme */
+/* .about__pic::after {
+	content: '';
+	background-color: #fca6d193;
+	border-radius: 1.2rem;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 24px;
+	transition: var(--transition);
+}
+
+.about__pic:hover::after {
+	background-color: #fca6d100;
+} */
+
+.about__pic img {
 	position: relative;
 	border-radius: 1.2rem;
 	aspect-ratio: 1 / 1;
@@ -469,7 +487,7 @@ section {
 }
 
 .tabcontent ul li::before {
-	content: "▹";
+	content: "✧";
 	color: var(--pink);
 	margin-right: 20px;
 }
