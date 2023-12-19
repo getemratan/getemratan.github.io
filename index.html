@@ -33,24 +33,35 @@
 							</ol>
 						</div>
 					</nav>
+					<!-- Hamburger Nav -->
+					<nav id="hamburger-nav">
+						<div class="logo">GETEM</div>
+						<div class="hamburger-menu">
+							<div class="hamburger-icon" onclick="toggleMenu()">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<div class="hamburger-menu-links">
+								<li><a href="#about" onclick="toggleMenu()"> About</a></li>
+								<li><a href="#experience" onclick="toggleMenu()"> Experience</a></li>
+								<li><a href="#work" onclick="toggleMenu()"> Work</a></li>
+								<li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+							</div>
+						</div>
+					</nav>
 				</header>
-				<!-- Hamburger Nav -->
-				<nav id="hamburger-nav">
-					<div class="logo">GETEM</div>
-					<div class="hamburger-menu">
-						<div class="hamburger-icon" onclick="toggleMenu()">
-							<span></span>
-							<span></span>
-							<span></span>
-						</div>
-						<div class="hamburger-menu-links">
-							<li><a href="#about" onclick="toggleMenu()"> About</a></li>
-							<li><a href="#experience" onclick="toggleMenu()"> Experience</a></li>
-							<li><a href="#work" onclick="toggleMenu()"> Work</a></li>
-							<li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
-						</div>
+				<!-- Side Styled Elements -->
+				<div orientation="right" class="side-styled">
+					<div class="side-element">
+						<a href="mailto:getemratan410@gmail.com">getemratan410@gmail.com</a>
 					</div>
-				</nav>
+				</div>		
+				<div orientation="left" class="side-styled-left">
+					<div class="side-element-left">
+						<p>scroll down</p>
+					</div>
+				</div>		
 				<!-- Hero Section -->
 				<div id="content">
 					<main class="fillHeight">
@@ -214,6 +225,7 @@
 						</section>
 						<!-- Footer -->
 						<footer id="footer">
+							<p><a href="">Written by Getem Ratan</a></p>
 							<p class="copyright">&copy; 2023 Getem Ratan. All Rights Reserved.</p>
 						</footer>
 					</main>
@@ -224,7 +236,7 @@
 					<script src="assets/js/util.js"></script>
 					<script src="assets/js/main.js"></script> -->
 					<script src="assets/js/hamburgerClick.js"></script>
-					<!-- <script src="assets/js/navscroll.js"></script> -->
+					<script src="assets/js/navscroll.js"></script>
 				</div>
 			</div>
 		</div>

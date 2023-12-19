@@ -58,6 +58,14 @@
     grid-column: 1 / -1;
     filter: grayscale(60%) contrast(1) brightness(50%);
   }
+
+  .side-styled {
+    display: none;
+  }
+
+  .side-styled-left {
+    display: none;
+  }
 }
 
 @media (max-width: 1600px) {

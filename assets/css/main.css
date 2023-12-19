@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 .hamburger-icon span {
 	width: 100%;
 	height: 2px;
-	background-color: black;
+	background-color: var(--pink);
 	transition: all 0.3 ease-in-out;
 }
 
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 100%;
 	right: 0;
-	background-color: white;
+	background-color: var(--light-purple);
 	width: fit-content;
 	max-height: 0;
 	overflow: hidden;
@@ -219,7 +219,8 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 10px;
 	text-align: center;
 	font-size: 1.5rem;
-	color: black;
+	color: #96D1E5;
+	font-size: var(--fz-lg);
 	text-decoration: none;
 	transition: all 0.3 ease-in-out;
 }
@@ -303,6 +304,84 @@ h1, h2, h3, h4, h5, h6 {
 			margin-left: 10px;
 		}
 	}
+}
+
+/* side elements */
+
+.side-styled {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: auto;
+	right: 40px;
+	z-index: 10;
+	color: var(--light-slate);
+}
+
+.side-element {
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.side-styled-left {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: 40px;
+	right: auto;
+	z-index: 10;
+	color: var(--light-slate);
+}
+
+.side-element-left {
+	display: flex;
+	flex-direction: column;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+}
+
+.side-element a {
+	margin: 20px auto;
+	padding: 10px;
+	font-family: var(--font-mono);
+	font-size: var(--fz-xxs);
+	line-height: var(--fz-lg);
+	letter-spacing: 0.1em;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+}
+
+.side-element-left p {
+	margin: 20px auto;
+	padding: 10px;
+	font-family: var(--font-mono);
+	font-size: var(--fz-xxs);
+	line-height: var(--fz-lg);
+	letter-spacing: 0.1em;
+	-webkit-writing-mode: vertical-rl;
+	writing-mode: vertical-rl;
+}
+
+.side-element::after {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 90px;
+	margin: 0px auto;
+	background-color: var(--light-slate);
+}
+
+.side-element-left::after {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 90px;
+	margin: 0px auto;
+	background-color: var(--light-slate);
 }
 
 /* Sections */
